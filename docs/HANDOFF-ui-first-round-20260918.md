@@ -163,8 +163,7 @@
 
 ## 现场与环境边界
 
-- `deploy/deployment-standalone-doris.md` 的当前章节记录 Doris 4.1.3 升级曾处于 `FAILED`，不要把它当作本轮前端测试通过证据。
-- 该文档同时记录阶段 A 的五节点环境和 OTel/Doris 数据链路；概览容量优化后续仍需现场验证，特别是系统盘与 `/data` 分离显示。
+- `deploy/deployment-standalone-doris.md` 记录阶段 A 的五节点环境和 OTel/Doris 数据链路；概览容量优化后续仍需现场验证，特别是系统盘与 `/data` 分离显示。
 - 进程检查未发现本轮 worktree 的 npm/vitest 后台任务。另有其他目录的 SeaTunnel 长耗时构建进程，不属于本轮，不要终止。
 
 ## 暂停点
